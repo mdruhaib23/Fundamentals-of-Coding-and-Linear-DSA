@@ -7,11 +7,11 @@
  #more than 500 but less than 1,000                    10.00
  #1,000 or more                                        12.00
 def print_cost(distance):
-  if ("distance>=0 && distance<=100"):
-    print(5.00)
-  elif ("distance>=100 && distance<=500"):
-    print(8.00)
-  elif ("distance>=500 && distance<=100"):
-    print(10.00)
+  if ("distance>=0 and distance<=100"):
+    print(5)
+  elif ("distance>=100 and distance<=500"):
+    print(8)
+  elif ("distance>=500 and distance<=100"):
+    print(10)
   else:
-    print(12.00)
+    print(12)
